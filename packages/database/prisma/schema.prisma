@@ -1,0 +1,105 @@
+//****************************************************************
+//** Datasource and Generator Configuration
+//****************************************************************
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("PRISMA_DB_URL")
+  extensions = [citext]
+}
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions", "fullTextIndex", "tracing", "views", "relationJoins", "nativeDistinct", "omitApi", "typedSql", "strictUndefinedChecks"]
+}
+
+generator zod {
+  provider                         = "zod-prisma-types"
+  createOptionalDefaultValuesTypes = true
+  createRelationValuesTypes        = true
+}
+
+//****************************************************************
+//** User Management
+//****************************************************************
+
+model Account {
+  access_token             String? @db.Text
+  expires_at               Int?
+  id                       String  @id @default(cuid())
+  id_token                 String? @db.Text
+  oauth_token              String? @db.Text
+  oauth_token_secret       String? @db.Text
+  provider                 String  @db.VarChar(255)
+  providerAccountId        String  @db.VarChar(255)
+  refresh_token            String? @db.Text
+  refresh_token_expires_in Int?
+  scope                    String? @db.VarChar(255)
+  session_state            String? @db.VarChar(255)
+  token_type               String? @db.VarChar(255)
+  user                     User    @relation("UserAccounts", fields: [userId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  userId                   String
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+  @@map(name: "u_accounts")
+}
+
+model Session {
+  createdAt    DateTime @default(now())
+  expires      DateTime
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  user         User     @relation("UserSessions", fields: [userId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  userId       String
+
+  @@index([userId])
+  @@map(name: "u_sessions")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  createdAt     DateTime  @default(now())
+  firstName     String    @db.VarChar(255)
+  lastName      String    @db.VarChar(255)
+  email         String?   @unique @db.VarChar(255)
+  emailVerified DateTime?
+  image         String?   @db.Text
+  name          String?   @db.VarChar(255)
+  sessions      Session[] @relation("UserSessions")
+  accounts      Account[] @relation("UserAccounts")
+  updatedAt     DateTime  @updatedAt
+
+  @@index([email])
+  @@map(name: "users")
+}
+
+model VerificationToken {
+  createdAt  DateTime @default(now())
+  expires    DateTime
+  identifier String   @db.VarChar(255)
+  token      String   @unique @db.VarChar(255)
+
+  @@unique([identifier, token])
+  @@index([createdAt])
+  @@map(name: "u_verification_tokens")
+}
+
+//****************************************************************
+//** Enums
+//****************************************************************
+
+enum MantineColor {
+  BLUE   @map("blue")
+  CYAN   @map("cyan")
+  GRAPE  @map("grape")
+  GREEN  @map("green")
+  INDIGO @map("indigo")
+  LIME   @map("lime")
+  ORANGE @map("orange")
+  PINK   @map("pink")
+  RED    @map("red")
+  TEAL   @map("teal")
+  VIOLET @map("violet")
+  YELLOW @map("yellow")
+}

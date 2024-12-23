@@ -1,0 +1,23 @@
+{
+  "name": "@repo/next-config",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --fix",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {
+    "@logtail/next": "^0.1.7",
+    "@next/bundle-analyzer": "^15.1.2",
+    "@prisma/nextjs-monorepo-workaround-plugin": "^6.1.0",
+    "@sentry/nextjs": "^8.47.0",
+    "@vercel/toolbar": "^0.1.30"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@repo/env": "workspace:*",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "globals": "^15.14.0",
+    "next": "^15.1.2"
+  }
+}

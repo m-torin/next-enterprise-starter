@@ -1,0 +1,26 @@
+{
+  "name": "@repo/analytics",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --fix",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {
+    "@next/third-parties": "^15.1.2",
+    "@repo/env": "workspace:*",
+    "@vercel/analytics": "^1.4.1",
+    "posthog-js": "^1.203.1",
+    "posthog-node": "^4.3.2",
+    "react": "^19.0.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "globals": "^15.14.0"
+  }
+}

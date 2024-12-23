@@ -1,0 +1,22 @@
+{
+  "name": "@repo/security",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {
+    "@arcjet/next": "^1.0.0-alpha.34",
+    "@nosecone/next": "^1.0.0-alpha.34",
+    "@repo/database": "workspace:*",
+    "@repo/env": "workspace:*"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "globals": "^15.14.0",
+    "typescript": "^5.7.2"
+  }
+}

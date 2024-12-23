@@ -1,0 +1,29 @@
+{
+  "extends": "@repo/typescript-config/nextjs.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "plugins": [{ "name": "next" }],
+    "baseUrl": "./",
+    "paths": {
+      "#/api/*": ["./app/api/*"],
+      "#/app/*": ["./app/*"],
+      "#/base/*": ["./*"],
+      "#/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.mts",
+    "**/*.mjs",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".turbo",
+    ".next",
+    ".next/**/*",
+    "!.next/types/**/*"
+  ]
+}

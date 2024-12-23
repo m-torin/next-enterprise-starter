@@ -1,0 +1,68 @@
+{
+  "name": "@repo/database",
+  "private": true,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./edge": {
+      "types": "./dist/db-edge.d.ts",
+      "import": "./dist/db-edge.mjs",
+      "require": "./dist/db-edge.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prebuild": "npm run generate",
+    "build": "tsup",
+    "db:migrate:deploy": "prisma migrate deploy",
+    "db:migrate:dev": "prisma migrate dev",
+    "db:push": "prisma db push",
+    "db:seed": "tsx src/seed.ts",
+    "predev": "npm run generate",
+    "dev": "tsup src/* --watch",
+    "format": "prisma format",
+    "generate": "prisma generate",
+    "lint": "eslint src/ --fix --max-warnings 0 && pnpm prisma:format",
+    "prisma": "prisma",
+    "prisma:db:pull": "prisma db pull",
+    "prisma:db:push": "prisma db push",
+    "prisma:format": "prisma format",
+    "prisma:generate": "prisma format && prisma generate ",
+    "prisma:introspect": "prisma introspect",
+    "prisma:migrate:dev": "prisma validate && prisma migrate dev",
+    "prisma:migrate:resolve": "prisma migrate resolve",
+    "prisma:migrate:status": "prisma migrate status",
+    "prisma:push": "prisma format && prisma db push && pnpm build",
+    "prisma:studio": "prisma studio",
+    "prisma:validate": "prisma validate",
+    "studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "zod-prisma-types": "^3.2.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0",
+    "prisma": "^6.1.0",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.1",
+    "zod": "^3.24.1"
+  },
+  "peerDependencies": {
+    "zod": "^3.23.8"
+  }
+}

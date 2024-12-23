@@ -1,0 +1,38 @@
+{
+  "name": "api",
+  "private": true,
+  "scripts": {
+    "analyze": "ANALYZE=true pnpm build",
+    "build": "next build",
+    "dev": "next dev -p 3004 --turbo",
+    "doppler": "doppler secrets download --token=$DOPPLER_TOKEN_JOLLY_ROGER --no-file --format env > .env",
+    "lint": "eslint . --fix",
+    "start": "next start",
+    "tsc": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {
+    "@mantine/core": "^7.15.1",
+    "@repo/analytics": "workspace:*",
+    "@repo/auth": "workspace:*",
+    "@repo/database": "workspace:*",
+    "@repo/design-system": "workspace:*",
+    "@repo/env": "workspace:*",
+    "@repo/next-config": "workspace:*",
+    "@repo/observability": "workspace:*",
+    "@sentry/nextjs": "^8.47.0",
+    "next": "^15.1.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "concurrently": "^9.1.0",
+    "globals": "^15.14.0",
+    "typescript": "^5.7.2"
+  }
+}

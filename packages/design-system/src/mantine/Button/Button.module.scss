@@ -1,0 +1,50 @@
+// Button.module.scss
+.button {
+  &.customVariant {
+    background: linear-gradient(
+      45deg,
+      var(--mantine-color-red-4),
+      var(--mantine-color-red-6)
+    );
+    padding: mantine.rem(8) mantine.rem(16);
+
+    @include mantine.light {
+      color: var(--mantine-color-white);
+    }
+
+    @include mantine.dark {
+      color: var(--mantine-color-dark-0);
+    }
+
+    @include mantine.hover {
+      background: linear-gradient(
+        45deg,
+        var(--mantine-color-red-5),
+        var(--mantine-color-red-7)
+      );
+    }
+
+    @include mantine.smaller-than(mantine.$mantine-breakpoint-sm) {
+      padding: mantine.rem(4) mantine.rem(8);
+    }
+  }
+
+  &.withIcon {
+    display: inline-flex;
+    align-items: center;
+    gap: mantine.rem(8);
+  }
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+
+  @include mantine.rtl {
+    margin-left: mantine.rem(8);
+  }
+
+  @include mantine.ltr {
+    margin-right: mantine.rem(8);
+  }
+}

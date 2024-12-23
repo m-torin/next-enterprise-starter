@@ -1,0 +1,16 @@
+.container {
+  @media (max-width: mantine.$mantine-breakpoint-xs) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.title {
+  font-size: mantine.rem(50);
+  font-weight: 300;
+
+  @media (max-width: mantine.$mantine-breakpoint-xs) {
+    font-size: mantine.rem(30);
+    font-weight: 500;
+  }
+}
