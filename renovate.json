@@ -1,161 +1,80 @@
 {
-  "baseBranches": [
-    "newMain"
-  ],
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "minimumReleaseAge": "3 days",
-  "rangeStrategy": "pin",
   "packageRules": [
     {
-      "matchManagers": [
-        "npm"
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "All Non-Major Updates",
+      "excludePackageNames": [
+        "mantine-*",
+        "@mantine/*",
+        "*zod*",
+        "react",
+        "react-dom",
+        "@types/react",
+        "@types/react-dom",
+        "next",
+        "@types/next",
+        "next-auth",
+        "@types/next-auth"
       ],
-      "rangeStrategy": "replace",
-      "postUpdateOptions": [
-        "pnpmDedupe"
-      ]
-    },
-    {
-      "description": "Group Sentry-related updates",
-      "groupName": "Sentry Ecosystem",
-      "prPriority": 9,
       "automerge": true,
       "automergeType": "squash",
-      "matchPackageNames": [
-        "/^@sentry/.*/",
-        "/^sentry-.*/",
-        "/^sentry$/"
-      ]
-    },
-    {
-      "description": "Group ESLint and Stylelint-related updates",
-      "groupName": "Linting Tools",
-      "prPriority": 8,
-      "automerge": true,
-      "automergeType": "squash",
-      "matchPackageNames": [
-        "/^eslint.*/",
-        "/^stylelint.*/",
-        "/^@typescript-eslint/.*/"
-      ]
-    },
-    {
-      "description": "Group Jest and Testing Library-related updates",
-      "groupName": "Testing Tools",
-      "prPriority": 8,
-      "automerge": true,
-      "automergeType": "squash",
-      "matchPackageNames": [
-        "/^jest.*/",
-        "/^@testing-library/.*/"
-      ]
-    },
-    {
-      "description": "Group Storybook and Chroma-js-related updates",
-      "groupName": "Storybook & Chroma-js",
-      "prPriority": 8,
-      "automerge": true,
-      "automergeType": "squash",
-      "matchPackageNames": [
-        "/^@storybook/.*/",
-        "/^storybook.*/",
-        "/^chroma-js$/"
-      ]
-    },
-    {
-      "description": "Group Next.js and React-related updates",
-      "groupName": "React & Next.js Ecosystem",
-      "prPriority": 7,
-      "matchPackageNames": [
-        "/^next$/",
-        "/^@types/next$/",
-        "/^next-auth$/",
-        "/^@types/next-auth$/",
-        "/^react$/",
-        "/^react-dom$/",
-        "/^@types/react$/",
-        "/^@types/react-dom$/"
-      ]
+      "prPriority": 10
     },
     {
       "description": "Group Mantine and Zod-related updates",
-      "groupName": "Mantine and Zod Ecosystem",
-      "prPriority": 8,
-      "automerge": true,
-      "automergeType": "squash",
-      "matchPackageNames": [
-        "/^mantine-.*/",
-        "/^@mantine/.*/",
-        "/.*zod.*/"
-      ]
+      "matchPackageNames": ["mantine-*", "@mantine/*", "*zod*"],
+      "groupName": "Mantine and Zod ecosystem",
+      "prPriority": 8
     },
     {
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "pin",
-        "digest"
-      ],
-      "groupName": "All Non-Major Updates",
-      "automerge": true,
-      "automergeType": "squash",
-      "prPriority": 10,
+      "description": "Group React-related updates",
       "matchPackageNames": [
-        "!/^mantine-.*/",
-        "!/^@mantine/.*/",
-        "!/.*zod.*/",
-        "!/^react$/",
-        "!/^react-dom$/",
-        "!/^@types/react$/",
-        "!/^@types/react-dom$/",
-        "!/^next$/",
-        "!/^@types/next$/",
-        "!/^next-auth$/",
-        "!/^@types/next-auth$/",
-        "!/^@sentry/.*/",
-        "!/^sentry-.*/",
-        "!/^sentry$/",
-        "!/^eslint.*/",
-        "!/^stylelint.*/",
-        "!/^@typescript-eslint/.*/",
-        "!/^jest.*/",
-        "!/^@testing-library/.*/",
-        "!/^@storybook/.*/",
-        "!/^storybook.*/",
-        "!/^chroma-js$/"
-      ]
+        "react",
+        "react-dom",
+        "@types/react",
+        "@types/react-dom"
+      ],
+      "groupName": "React ecosystem",
+      "prPriority": 6
+    },
+    {
+      "description": "Group Next.js updates",
+      "matchPackageNames": [
+        "next",
+        "@types/next",
+        "next-auth",
+        "@types/next-auth"
+      ],
+      "groupName": "Next.js ecosystem",
+      "prPriority": 5
     },
     {
       "description": "Major updates require approval from the dashboard",
-      "matchUpdateTypes": [
-        "major"
-      ],
+      "matchUpdateTypes": ["major"],
       "dependencyDashboardApproval": true,
       "prPriority": 4
     },
     {
-      "matchManagers": [
-        "dockerfile"
-      ],
+      "matchManagers": ["dockerfile"],
       "groupName": "Dockerfile Image Updates",
       "automerge": true,
       "automergeType": "squash",
       "prPriority": 2
     },
     {
-      "matchManagers": [
-        "docker-compose"
-      ],
+      "matchManagers": ["docker-compose"],
       "groupName": "Docker Compose Image Updates",
       "automerge": true,
       "automergeType": "squash",
       "prPriority": 1
     },
     {
-      "matchPackageNames": [
-        "sass"
-      ],
+      "matchPackageNames": ["sass"],
       "enabled": false
+    },
+    {
+      "matchManagers": ["npm"],
+      "postUpdateOptions": ["pnpmDedupe"]
     }
   ]
 }
