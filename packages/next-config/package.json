@@ -6,7 +6,7 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@logtail/next": "^0.1.7",
+    "@logtail/next": "^0.2.0",
     "@next/bundle-analyzer": "^15.1.2",
     "@prisma/nextjs-monorepo-workaround-plugin": "^6.1.0",
     "@sentry/nextjs": "^8.47.0",
