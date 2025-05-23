@@ -7315,8 +7315,8 @@ packages:
     engines: {node: '>= 10.13.0'}
     hasBin: true
 
-  webpack-sources@3.2.3:
-    resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
+  webpack-sources@3.3.0:
+    resolution: {integrity: sha512-77R0RDmJfj9dyv5p3bM5pOHa+X8/ZkO9c7kpDstigkC4nIDobadsfSGCwB4bKhMVxqAok8tajaoR8rirM7+VFQ==}
     engines: {node: '>=10.13.0'}
 
   webpack-virtual-modules@0.5.0:
@@ -14824,7 +14824,7 @@ snapshots:
     dependencies:
       acorn: 8.14.1
       chokidar: 3.6.0
-      webpack-sources: 3.2.3
+      webpack-sources: 3.3.0
       webpack-virtual-modules: 0.5.0
 
   unplugin@1.16.1:
@@ -15026,7 +15026,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  webpack-sources@3.2.3: {}
+  webpack-sources@3.3.0: {}
 
   webpack-virtual-modules@0.5.0: {}
 
@@ -15056,7 +15056,7 @@ snapshots:
       tapable: 2.2.2
       terser-webpack-plugin: 5.3.14(webpack@5.97.1)
       watchpack: 2.4.4
-      webpack-sources: 3.2.3
+      webpack-sources: 3.3.0
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
