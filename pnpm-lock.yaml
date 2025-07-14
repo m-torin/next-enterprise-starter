@@ -278,8 +278,8 @@ importers:
   packages/config-prettier:
     devDependencies:
       '@prettier/plugin-php':
-        specifier: ^0.22.2
-        version: 0.22.4(prettier@3.6.2)
+        specifier: ^0.23.0
+        version: 0.23.0(prettier@3.6.2)
       '@vercel/style-guide':
         specifier: ^6.0.0
         version: 6.0.0(eslint@9.31.0(jiti@2.4.2))(jest@29.7.0(@types/node@24.0.13))(prettier@3.6.2)(typescript@5.8.3)
@@ -2003,8 +2003,8 @@ packages:
   '@polka/url@1.0.0-next.29':
     resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
 
-  '@prettier/plugin-php@0.22.4':
-    resolution: {integrity: sha512-uZWqfyrwsxScIYkmVcfnoQGFmKVMXTHD5pqYT4l8fxzm5P3XY94hTPbf8X6TFCi2QTZBIot7GS8lfIjQjldc2g==}
+  '@prettier/plugin-php@0.23.0':
+    resolution: {integrity: sha512-8VeSOewhR9eBaQbxDS+NCkbjk57VKlCroz4zTNDKnLl6h4JXG2MLITZR89WDFdHS/E35s/uwtSDgnigWlbGvkQ==}
     peerDependencies:
       prettier: ^3.0.0
 
@@ -5323,8 +5323,8 @@ packages:
   lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  linguist-languages@7.27.0:
-    resolution: {integrity: sha512-Wzx/22c5Jsv2ag+uKy+ITanGA5hzvBZngrNGDXLTC7ZjGM6FLCYGgomauTkxNJeP9of353OM0pWqngYA180xgw==}
+  linguist-languages@8.0.0:
+    resolution: {integrity: sha512-qfzYmWmM/HOsrO/6YwN2f1DD39p3ObSuq8YgF9JLY9toQO39ZsPBPJoWwTtrqRvhkG+cQUgCOS9h/xRgwfqLxQ==}
 
   load-tsconfig@0.2.5:
     resolution: {integrity: sha512-IXO6OCs9yg8tMKzfPZ1YmheJbZCiEsnBdcB03l0OcfK9prKnJb96siuHCr5Fl37/yo9DnKU+TLpxzTUspw9shg==}
@@ -5903,8 +5903,8 @@ packages:
     resolution: {integrity: sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==}
     engines: {node: '>=4'}
 
-  php-parser@3.2.2:
-    resolution: {integrity: sha512-voj3rzCJmEbwHwH3QteON28wA6K+JbcaJEofyUZkUXmcViiXofjbSbcE5PtqtjX6nstnnAEYCFoRq0mkjP5/cg==}
+  php-parser@3.2.5:
+    resolution: {integrity: sha512-M1ZYlALFFnESbSdmRtTQrBFUHSriHgPhgqtTF/LCbZM4h7swR5PHtUceB2Kzby5CfqcsYwBn7OXTJ0+8Sajwkw==}
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -8907,10 +8907,10 @@ snapshots:
 
   '@polka/url@1.0.0-next.29': {}
 
-  '@prettier/plugin-php@0.22.4(prettier@3.6.2)':
+  '@prettier/plugin-php@0.23.0(prettier@3.6.2)':
     dependencies:
-      linguist-languages: 7.27.0
-      php-parser: 3.2.2
+      linguist-languages: 8.0.0
+      php-parser: 3.2.5
       prettier: 3.6.2
 
   '@prisma/client@6.11.1(prisma@6.11.1(typescript@5.8.3))(typescript@5.8.3)':
@@ -12923,7 +12923,7 @@ snapshots:
 
   lines-and-columns@1.2.4: {}
 
-  linguist-languages@7.27.0: {}
+  linguist-languages@8.0.0: {}
 
   load-tsconfig@0.2.5: {}
 
@@ -13690,7 +13690,7 @@ snapshots:
       postgres-date: 1.0.7
       postgres-interval: 1.2.0
 
-  php-parser@3.2.2: {}
+  php-parser@3.2.5: {}
 
   picocolors@1.1.1: {}
 
