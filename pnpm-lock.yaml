@@ -129,7 +129,7 @@ importers:
     dependencies:
       '@next/third-parties':
         specifier: ^15.1.2
-        version: 15.4.2(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
+        version: 15.4.3(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
       '@repo/env':
         specifier: workspace:*
         version: link:../env
@@ -138,7 +138,7 @@ importers:
         version: 1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
       posthog-js:
         specifier: ^1.203.1
-        version: 1.257.1(@rrweb/types@2.0.0-alpha.17)
+        version: 1.257.2(@rrweb/types@2.0.0-alpha.17)
       posthog-node:
         specifier: ^4.3.2
         version: 4.18.0
@@ -589,7 +589,7 @@ importers:
         version: 0.2.1(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
       '@next/bundle-analyzer':
         specifier: ^15.1.2
-        version: 15.4.2
+        version: 15.4.3
       '@prisma/nextjs-monorepo-workaround-plugin':
         specifier: ^6.1.0
         version: 6.12.0
@@ -1625,8 +1625,8 @@ packages:
   '@napi-rs/wasm-runtime@1.0.0':
     resolution: {integrity: sha512-OInwPIZhcQ+aWOBFMUXzv95RLDTBRPaNPm5kSFJaL3gVAMVxrzc0YXNsVeLPHf+4sTviOy2e5wZdvKILb7dC/w==}
 
-  '@next/bundle-analyzer@15.4.2':
-    resolution: {integrity: sha512-kgjecwKDgJ50DZXjVllawD6MuTyxaREB5EUBKbG9NLBHjYu10O/OPL5JqKrBrYdQ9BNVxjGEQoDGcHB76ZjViQ==}
+  '@next/bundle-analyzer@15.4.3':
+    resolution: {integrity: sha512-tESVtA147P9TXR8oh/sNR1yu8hx1K9lHEqQdxXqZew87BCvpx+hDvS/8oqp0Kn05qM8mlsjXmH8kKt19dMNZ+w==}
 
   '@next/env@15.1.2':
     resolution: {integrity: sha512-Hm3jIGsoUl6RLB1vzY+dZeqb+/kWPZ+h34yiWxW0dV87l8Im/eMOwpOA+a0L78U0HM04syEjXuRlCozqpwuojQ==}
@@ -1682,8 +1682,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@next/third-parties@15.4.2':
-    resolution: {integrity: sha512-ncm6RqzJnEo+cjILGo4Ql1/qmf0vaB8LpEkDCu5/XpOoNyynkYFC3GGuOTVJGsRQc7FxRQifbh3F+wHUK/5Dtg==}
+  '@next/third-parties@15.4.3':
+    resolution: {integrity: sha512-9eczO97h3CF4ihYi5gulJ7MjugFlRIMiPcCcbc/1DQ2H5Tv3dy1Gcfqbtsa4O4/6tRGE4R900XKzS7FC/A3WdQ==}
     peerDependencies:
       next: ^13.0.0 || ^14.0.0 || ^15.0.0
       react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
@@ -6098,8 +6098,8 @@ packages:
     resolution: {integrity: sha512-9ZhXKM/rw350N1ovuWHbGxnGh/SNJ4cnxHiM0rxE4VN41wsg8P8zWn9hv/buK00RP4WvlOyr/RBDiptyxVbkZQ==}
     engines: {node: '>=0.10.0'}
 
-  posthog-js@1.257.1:
-    resolution: {integrity: sha512-29kk3IO/LkPQ8E1cds6a2sWr5iN4BovgL+EMzRK9hQXbI6D3FJnQ7zLU6EUpktt6pHnqGpfO3BTEcflcDYkHBg==}
+  posthog-js@1.257.2:
+    resolution: {integrity: sha512-E+8wI/ahaiUGrmkilOtAB9aTFL+oELwOEsH1eO/2NyXB5WWcSUk6Rm1loixq8/lC4f3oR+Qqp9rHyXTSYbBDRQ==}
     peerDependencies:
       '@rrweb/types': 2.0.0-alpha.17
       rrweb-snapshot: 2.0.0-alpha.17
@@ -8564,7 +8564,7 @@ snapshots:
       '@tybys/wasm-util': 0.10.0
     optional: true
 
-  '@next/bundle-analyzer@15.4.2':
+  '@next/bundle-analyzer@15.4.3':
     dependencies:
       webpack-bundle-analyzer: 4.10.1
     transitivePeerDependencies:
@@ -8599,7 +8599,7 @@ snapshots:
   '@next/swc-win32-x64-msvc@15.1.2':
     optional: true
 
-  '@next/third-parties@15.4.2(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)':
+  '@next/third-parties@15.4.3(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)':
     dependencies:
       next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react: 19.0.0
@@ -13903,7 +13903,7 @@ snapshots:
     dependencies:
       xtend: 4.0.2
 
-  posthog-js@1.257.1(@rrweb/types@2.0.0-alpha.17):
+  posthog-js@1.257.2(@rrweb/types@2.0.0-alpha.17):
     dependencies:
       core-js: 3.44.0
       fflate: 0.4.8
