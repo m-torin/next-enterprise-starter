@@ -138,7 +138,7 @@ importers:
         version: 1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)
       posthog-js:
         specifier: ^1.203.1
-        version: 1.261.8(@rrweb/types@2.0.0-alpha.17)
+        version: 1.262.0(@rrweb/types@2.0.0-alpha.17)
       posthog-node:
         specifier: ^4.3.2
         version: 4.18.0
@@ -460,7 +460,7 @@ importers:
     dependencies:
       '@react-email/components':
         specifier: ^0.5.0
-        version: 0.5.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        version: 0.5.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@repo/env':
         specifier: workspace:*
         version: link:../env
@@ -2217,8 +2217,8 @@ packages:
     peerDependencies:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
 
-  '@react-email/components@0.5.2':
-    resolution: {integrity: sha512-P0HHIWWMaBZaou0dB3AhSfIgQm2wWkx/+7etg1t8r6IwIbT8Vygjl01j23GvxfL5Ncs5JpjxGP/n2A1ALRgc4g==}
+  '@react-email/components@0.5.3':
+    resolution: {integrity: sha512-8G5vsoMehuGOT4cDqaYLdpagtqCYPl4vThXNylClxO6SrN2w9Mh1+i2RNGj/rdqh/woamHORjlXMYCA/kzDMew==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
@@ -2289,8 +2289,8 @@ packages:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
       react-dom: ^18.0 || ^19.0 || ^19.0.0-rc
 
-  '@react-email/render@1.2.2':
-    resolution: {integrity: sha512-9MOMX7bGUvb3a7hNtoPguxyQUg38PuL88jhXmAgpWlF93yn0spj6pmVHkngLDlJYwYeBEQusPsQyyBv622Kdnw==}
+  '@react-email/render@1.2.3':
+    resolution: {integrity: sha512-qu3XYNkHGao3teJexVD5CrcgFkNLrzbZvpZN17a7EyQYUN3kHkTkE9saqY4VbvGx6QoNU3p8rsk/Xm++D/+pTw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
@@ -6240,8 +6240,8 @@ packages:
     resolution: {integrity: sha512-9ZhXKM/rw350N1ovuWHbGxnGh/SNJ4cnxHiM0rxE4VN41wsg8P8zWn9hv/buK00RP4WvlOyr/RBDiptyxVbkZQ==}
     engines: {node: '>=0.10.0'}
 
-  posthog-js@1.261.8:
-    resolution: {integrity: sha512-HohKQ5Fuvei/3ZLIdayq6lDpeXsG891t2y2izpHu6q/1SoCS+HlYjViz3WCu9KlE7AfjfpwvN1kjnFNNPWeOig==}
+  posthog-js@1.262.0:
+    resolution: {integrity: sha512-RPbm+0qLVsgKQEN3KjfYAK+0qOwBPT28RHDg4WIstN8/z2m6PczMqSirOIXSqbvDwSCQQQRPTKS6fSurevqJMA==}
     peerDependencies:
       '@rrweb/types': 2.0.0-alpha.17
       rrweb-snapshot: 2.0.0-alpha.17
@@ -9298,7 +9298,7 @@ snapshots:
     dependencies:
       react: 19.0.0
 
-  '@react-email/components@0.5.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@react-email/components@0.5.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@react-email/body': 0.1.0(react@19.0.0)
       '@react-email/button': 0.2.0(react@19.0.0)
@@ -9315,7 +9315,7 @@ snapshots:
       '@react-email/link': 0.0.12(react@19.0.0)
       '@react-email/markdown': 0.0.15(react@19.0.0)
       '@react-email/preview': 0.0.13(react@19.0.0)
-      '@react-email/render': 1.2.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@react-email/render': 1.2.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@react-email/row': 0.0.12(react@19.0.0)
       '@react-email/section': 0.0.16(react@19.0.0)
       '@react-email/tailwind': 1.2.2(react@19.0.0)
@@ -9373,7 +9373,7 @@ snapshots:
       react-dom: 19.0.0(react@19.0.0)
       react-promise-suspense: 0.3.4
 
-  '@react-email/render@1.2.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@react-email/render@1.2.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       html-to-text: 9.0.5
       prettier: 3.6.2
@@ -14201,7 +14201,7 @@ snapshots:
     dependencies:
       xtend: 4.0.2
 
-  posthog-js@1.261.8(@rrweb/types@2.0.0-alpha.17):
+  posthog-js@1.262.0(@rrweb/types@2.0.0-alpha.17):
     dependencies:
       '@posthog/core': 1.0.2
       core-js: 3.45.1
