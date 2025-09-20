@@ -43,10 +43,10 @@ importers:
         version: link:../../packages/observability
       '@sentry/nextjs':
         specifier: ^8.47.0
-        version: 8.55.0(@opentelemetry/context-async-hooks@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/core@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.57.1(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)(webpack@5.97.1)
+        version: 8.55.0(@opentelemetry/context-async-hooks@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/core@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.57.1(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0)(webpack@5.97.1)
       next:
         specifier: ^15.1.2
-        version: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1)
+        version: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0)
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -129,13 +129,13 @@ importers:
     dependencies:
       '@next/third-parties':
         specifier: ^15.1.2
-        version: 15.5.3(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)
+        version: 15.5.3(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0)
       '@repo/env':
         specifier: workspace:*
         version: link:../env
       '@vercel/analytics':
         specifier: ^1.4.1
-        version: 1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)
+        version: 1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0)
       posthog-js:
         specifier: ^1.203.1
         version: 1.266.2(@rrweb/types@2.0.0-alpha.17)
@@ -190,7 +190,7 @@ importers:
         version: 2.1.1
       next-auth:
         specifier: ^5.0.0-beta.25
-        version: 5.0.0-beta.25(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)
+        version: 5.0.0-beta.25(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0)
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -394,7 +394,7 @@ importers:
         version: 8.6.14(@storybook/test@8.6.14(storybook@8.6.14(prettier@3.6.2)))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(storybook@8.6.14(prettier@3.6.2))(typescript@5.9.2)
       '@storybook/react-vite':
         specifier: 8.6.14
-        version: 8.6.14(@storybook/test@8.6.14(storybook@8.6.14(prettier@3.6.2)))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rollup@4.50.1)(storybook@8.6.14(prettier@3.6.2))(typescript@5.9.2)(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
+        version: 8.6.14(@storybook/test@8.6.14(storybook@8.6.14(prettier@3.6.2)))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rollup@4.50.1)(storybook@8.6.14(prettier@3.6.2))(typescript@5.9.2)(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
       '@storybook/test':
         specifier: 8.6.14
         version: 8.6.14(storybook@8.6.14(prettier@3.6.2))
@@ -412,7 +412,7 @@ importers:
         version: 19.0.2(@types/react@19.0.2)
       '@vitejs/plugin-react':
         specifier: ^4.3.4
-        version: 4.7.0(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
+        version: 4.7.0(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -445,16 +445,16 @@ importers:
         version: 19.0.0(react@19.0.0)
       sass-embedded:
         specifier: ^1.83.0
-        version: 1.92.1
+        version: 1.93.0
       storybook:
         specifier: 8.6.14
         version: 8.6.14(prettier@3.6.2)
       vite:
         specifier: ^6.0.5
-        version: 6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
+        version: 6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
       vite-plugin-dts:
         specifier: ^4.4.0
-        version: 4.5.4(@types/node@22.18.6)(rollup@4.50.1)(typescript@5.9.2)(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
+        version: 4.5.4(@types/node@22.18.6)(rollup@4.50.1)(typescript@5.9.2)(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
 
   packages/email:
     dependencies:
@@ -586,7 +586,7 @@ importers:
     dependencies:
       '@logtail/next':
         specifier: ^0.2.0
-        version: 0.2.1(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)
+        version: 0.2.1(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0)
       '@next/bundle-analyzer':
         specifier: ^15.1.2
         version: 15.5.3
@@ -595,10 +595,10 @@ importers:
         version: 6.16.2
       '@sentry/nextjs':
         specifier: ^8.47.0
-        version: 8.55.0(@opentelemetry/context-async-hooks@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/core@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.57.1(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)(webpack@5.97.1)
+        version: 8.55.0(@opentelemetry/context-async-hooks@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/core@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.57.1(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0)(webpack@5.97.1)
       '@vercel/toolbar':
         specifier: ^0.1.30
-        version: 0.1.41(@vercel/analytics@1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(vite@6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
+        version: 0.1.41(@vercel/analytics@1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(vite@6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3.2.0
@@ -617,19 +617,19 @@ importers:
         version: 15.15.0
       next:
         specifier: ^15.1.2
-        version: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1)
+        version: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0)
 
   packages/observability:
     dependencies:
       '@logtail/next':
         specifier: ^0.2.0
-        version: 0.2.1(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)
+        version: 0.2.1(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0)
       '@repo/env':
         specifier: workspace:*
         version: link:../env
       '@sentry/nextjs':
         specifier: ^8.47.0
-        version: 8.55.0(@opentelemetry/context-async-hooks@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/core@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.57.1(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)(webpack@5.97.1)
+        version: 8.55.0(@opentelemetry/context-async-hooks@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/core@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.57.1(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0)(webpack@5.97.1)
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -663,10 +663,10 @@ importers:
     dependencies:
       '@arcjet/next':
         specifier: ^1.0.0-alpha.34
-        version: 1.0.0-beta.11(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))
+        version: 1.0.0-beta.11(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))
       '@nosecone/next':
         specifier: ^1.0.0-alpha.34
-        version: 1.0.0-beta.11(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))
+        version: 1.0.0-beta.11(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))
       '@repo/database':
         specifier: workspace:*
         version: link:../database
@@ -728,7 +728,7 @@ importers:
         version: 15.15.0
       next:
         specifier: ^15.1.2
-        version: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1)
+        version: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0)
 
   packages/tailwind-config:
     dependencies:
@@ -1077,8 +1077,8 @@ packages:
   '@bufbuild/protobuf@1.10.1':
     resolution: {integrity: sha512-wJ8ReQbHxsAfXhrf9ixl0aYbZorRuOWpBNzm8pL8ftmSxQx/wnJD5Eg861NwJU/czy2VXFIebCeZnZrI9rktIQ==}
 
-  '@bufbuild/protobuf@2.7.0':
-    resolution: {integrity: sha512-qn6tAIZEw5i/wiESBF4nQxZkl86aY4KoO0IkUa2Lh+rya64oTOdJQFlZuMwI1Qz9VBJQrQC4QlSA2DNek5gCOA==}
+  '@bufbuild/protobuf@2.9.0':
+    resolution: {integrity: sha512-rnJenoStJ8nvmt9Gzye8nkYd6V22xUAnu4086ER7h1zJ508vStko4pMvDeQ446ilDTFpV5wnoc5YS7XvMwwMqA==}
 
   '@chromatic-com/storybook@3.2.7':
     resolution: {integrity: sha512-fCGhk4cd3VA8RNg55MZL5CScdHqljsQcL9g6Ss7YuobHpSo9yytEWNdgMd5QxAHSPBlLGFHjnSmliM3G/BeBqw==}
@@ -6623,117 +6623,117 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  sass-embedded-all-unknown@1.92.1:
-    resolution: {integrity: sha512-5t6/YZf+vhO3OY/49h8RCL6Cwo78luva0M+TnTM9gu9ASffRXAuOVLNKciSXa3loptyemDDS6IU5/dVH5w0KmA==}
+  sass-embedded-all-unknown@1.93.0:
+    resolution: {integrity: sha512-fBTnh5qgOyw0CGVaF2iPsIIRj40D9Mnf19WerixjmWwmYKaGhxd62STsuMt6t1dWS5lkUZWRgrJ+2biQiEcCBg==}
     cpu: ['!arm', '!arm64', '!riscv64', '!x64']
 
-  sass-embedded-android-arm64@1.92.1:
-    resolution: {integrity: sha512-Q+UruGb7yKawHagVmVDRRKsnc4mJZvWMBnuRCu2coJo2FofyqBmXohVGXbxko97sYceA9TJTrUEx3WVKQUNCbQ==}
+  sass-embedded-android-arm64@1.93.0:
+    resolution: {integrity: sha512-bwU+0uWUVoATaYAb9mnDj7GCEnNAIrinzT4UlA6GlicH+ELEZlNwVjaPJfdCyyYs8iOKuzUPfZrFZuwRCsXXqw==}
     engines: {node: '>=14.0.0'}
     cpu: [arm64]
     os: [android]
 
-  sass-embedded-android-arm@1.92.1:
-    resolution: {integrity: sha512-4EjpVVzuksERdgAd4BqeSXFnWtWN3DSRyEIUPJ7BhcS9sfDh2Gf6miI2kNTvIQLJ2XIJynDDcEQ8a1U9KwKUTQ==}
+  sass-embedded-android-arm@1.93.0:
+    resolution: {integrity: sha512-oMm6RafXdpWDejufUs+GcgBSS/wa/iG1zRhwsCrkIkMLhqa34oN7xLkNs9Ieg337nlIryUBijwAVMFlAs/mgIg==}
     engines: {node: '>=14.0.0'}
     cpu: [arm]
     os: [android]
 
-  sass-embedded-android-riscv64@1.92.1:
-    resolution: {integrity: sha512-nCY5btLlX7W7Jc6cCL6D2Yklpiu540EJ2G08YVGu12DrAMCBzqM347CSRf2ojp1H8jyhvmLkaFwnrJWzh+6S+w==}
+  sass-embedded-android-riscv64@1.93.0:
+    resolution: {integrity: sha512-lKk7elql2abYeLY+wNBW8DB13W8An9JWlAr/BWOAtluz1RMsPVZwv0amQiP2PcR6HA02QDoLfRE/QpnPDHzCuw==}
     engines: {node: '>=14.0.0'}
     cpu: [riscv64]
     os: [android]
 
-  sass-embedded-android-x64@1.92.1:
-    resolution: {integrity: sha512-qYWR3bftJ77aLYwYDFuzDI4dcwVVixxqQxlIQWNGkHRCexj614qGSSHemr18C2eVj3mjXAQxTQxU68U7pkGPAA==}
+  sass-embedded-android-x64@1.93.0:
+    resolution: {integrity: sha512-wuyphs1VMS/PRXtCBLhA0bVo5nyKFCXKaVKMbqPylOTvoTHe7u0zxjWRN4eF5LTPVuQp0A+LYgJz07duzxwJew==}
     engines: {node: '>=14.0.0'}
     cpu: [x64]
     os: [android]
 
-  sass-embedded-darwin-arm64@1.92.1:
-    resolution: {integrity: sha512-g2yQ3txjMYLKMjL2cW1xRO9nnV3ijf95NbX/QShtV6tiVUETZNWDsRMDEwBNGYY6PTE/UZerjJL1R/2xpQg6WA==}
+  sass-embedded-darwin-arm64@1.93.0:
+    resolution: {integrity: sha512-lEb5J/jabesh16xdocRFgpzIa8GAZCLrdKtUnGbn9a4Y4WkEKHtUkvAm9ZtqE8YiuIm8PwHW/zBUKtZYoGYoYA==}
     engines: {node: '>=14.0.0'}
     cpu: [arm64]
     os: [darwin]
 
-  sass-embedded-darwin-x64@1.92.1:
-    resolution: {integrity: sha512-eH+fgxLQhTEPjZPCgPAVuX5e514Qp/4DMAUMtlNShv4cr4TD5qOp1XlsPYR/b7uE7p2cKFkUpUn/bHNqJ2ay4A==}
+  sass-embedded-darwin-x64@1.93.0:
+    resolution: {integrity: sha512-mo9OfKyNF6MiFf711c+QGR7aPpFqAC9FttiLKPYH3RRBZQZU/UcG4mbg+yXfKbhZrJmYngbGiTzE9B+xiOz27Q==}
     engines: {node: '>=14.0.0'}
     cpu: [x64]
     os: [darwin]
 
-  sass-embedded-linux-arm64@1.92.1:
-    resolution: {integrity: sha512-dNmlpGeZkry1BofhAdGFBXrpM69y9LlYuNnncf+HfsOOUtj8j0q1RwS+zb5asknhKFUOAG8GCGRY1df7Rwu35g==}
+  sass-embedded-linux-arm64@1.93.0:
+    resolution: {integrity: sha512-bJclpjTeP/qCu7zYLZQXROx4xIT3x+qfj/q92fripV9L9Oj2khfUm+2nW0Cq7DS6UrHphrWZ9QSnVYFhkCKtEA==}
     engines: {node: '>=14.0.0'}
     cpu: [arm64]
     os: [linux]
 
-  sass-embedded-linux-arm@1.92.1:
-    resolution: {integrity: sha512-cT3w8yoQTqrtZvWLJeutEGmawITDTY4J6oSVQjeDcPnnoPt0gOFxem8YMznraACXvahw/2+KJDH33BTNgiPo0A==}
+  sass-embedded-linux-arm@1.93.0:
+    resolution: {integrity: sha512-wtO2vB8rMc5zF29xwC3AMgmBgNgm3i3/8zog5vQBD4yddqCJ93JcWDjdUqYmq0H/DLD/Z7q91j6X/YgPq1WuEg==}
     engines: {node: '>=14.0.0'}
     cpu: [arm]
     os: [linux]
 
-  sass-embedded-linux-musl-arm64@1.92.1:
-    resolution: {integrity: sha512-TfiEBkCyNzVoOhjHXUT+vZ6+p0ueDbvRw6f4jHdkvljZzXdXMby4wh7BU1odl69rgRTkSvYKhgbErRLDR/F7pQ==}
+  sass-embedded-linux-musl-arm64@1.93.0:
+    resolution: {integrity: sha512-VH0zFGqsTy+lThHAm3y8Dpd/X4nC5DLJvk66+mJTg7rwblRhfPpsVO6n8QHeN5ZV1ATTnLh/PbZ7uEPiyAg2wg==}
     engines: {node: '>=14.0.0'}
     cpu: [arm64]
     os: [linux]
 
-  sass-embedded-linux-musl-arm@1.92.1:
-    resolution: {integrity: sha512-nPBos6lI31ef2zQhqTZhFOU7ar4impJbLIax0XsqS269YsiCwjhk11VmUloJTpFlJuKMiVXNo7dPx+katxhD/Q==}
+  sass-embedded-linux-musl-arm@1.93.0:
+    resolution: {integrity: sha512-mMGAy+2VLLTMDPDG/mfzMmoy09potXp/ZRPRsyJEYVjF0rQij6Iss3qsZbCjVJa4atLwBtPJ14M0NvqpAa2WIg==}
     engines: {node: '>=14.0.0'}
     cpu: [arm]
     os: [linux]
 
-  sass-embedded-linux-musl-riscv64@1.92.1:
-    resolution: {integrity: sha512-R+RcJA4EYpJDE9JM1GgPYgZo7x94FlxZ6jPodOQkEaZ1S9kvXVCuP5X/0PXRPhu08KJOfeMsAElzfdAjUf7KJg==}
+  sass-embedded-linux-musl-riscv64@1.93.0:
+    resolution: {integrity: sha512-/a+MvExFEKvwPXyZsQ8b1DWYJMpTnXSdwpe9pDNkdTIcliMAtP952krCx14nBP0UqqNoU/TetyMR8H0WwyeJEA==}
     engines: {node: '>=14.0.0'}
     cpu: [riscv64]
     os: [linux]
 
-  sass-embedded-linux-musl-x64@1.92.1:
-    resolution: {integrity: sha512-/HolYRGXJjx8nLw6oj5ZrkR7PFM7X/5kE4MYZaFMpDIPIcw3bqB2fUXLo/MYlRLsw7gBAT6hJAMBrNdKuTphfw==}
+  sass-embedded-linux-musl-x64@1.93.0:
+    resolution: {integrity: sha512-o168nV9QI5U+2LFBMmMecWzu6yJ7WJZZfQGlo4Frvg9vC3Em3W02GfAel+g9leJg+0PDnpJLqOsPdrngg25T/Q==}
     engines: {node: '>=14.0.0'}
     cpu: [x64]
     os: [linux]
 
-  sass-embedded-linux-riscv64@1.92.1:
-    resolution: {integrity: sha512-b9bxe0CMsbSsLx3nrR0cq8xpIkoAC6X36o4DGMITF3m2v3KsojC7ru9X0Gz+zUFr6rwpq/0lTNzFLNu6sPNo3w==}
+  sass-embedded-linux-riscv64@1.93.0:
+    resolution: {integrity: sha512-KYHED49coJQT633cBbqBfBOPmRe3yNbE+D2kqMONADBqzGyxHZpQRStCenhPmDabVLI4fgc3fn//6ubqH724jA==}
     engines: {node: '>=14.0.0'}
     cpu: [riscv64]
     os: [linux]
 
-  sass-embedded-linux-x64@1.92.1:
-    resolution: {integrity: sha512-xuiK5Jp5NldW4bvlC7AuX1Wf7o0gLZ3md/hNg+bkTvxtCDgnUHtfdo8Q+xWP11bD9QX31xXFWpmUB8UDLi6XQQ==}
+  sass-embedded-linux-x64@1.93.0:
+    resolution: {integrity: sha512-9OD9OlZ61dmz/BbW4n29l3v74//ibiQCmWu8YBoXVgxxgcbi+2CFv+vRE8guA73BgEdPComw0tpgD1FkW3v12g==}
     engines: {node: '>=14.0.0'}
     cpu: [x64]
     os: [linux]
 
-  sass-embedded-unknown-all@1.92.1:
-    resolution: {integrity: sha512-AT9oXvtNY4N+Nd0wvoWqq9A5HjdH/X3aUH4boQUtXyaJ/9DUwnQmBpP5Gtn028ZS8exOGBdobmmWAuigv0k/OA==}
+  sass-embedded-unknown-all@1.93.0:
+    resolution: {integrity: sha512-Hh9OPBMg+i1g8OzQyOtQuJg/3ncup4Z+FHdXNzPIeFXcIeS+TVuVQyvJfnB+hYgvVGyBJ+9ekuUYzB+1zA82nw==}
     os: ['!android', '!darwin', '!linux', '!win32']
 
-  sass-embedded-win32-arm64@1.92.1:
-    resolution: {integrity: sha512-KvmpQjY9yTBMtTYz4WBqetlv9bGaDW1aStcu7MSTbH7YiSybX/9fnxlCAEQv1WlIidQhcJAiyk0Eae+LGK7cIQ==}
+  sass-embedded-win32-arm64@1.93.0:
+    resolution: {integrity: sha512-3SNRTxBVk+c0Oyd4gCp4/KAQ+S6B9S5ihq5dxMMfWpvoQSUqn6mqhkEFrofG1oNlP7KsA2UzhTnFGDRid1An+A==}
     engines: {node: '>=14.0.0'}
     cpu: [arm64]
     os: [win32]
 
-  sass-embedded-win32-x64@1.92.1:
-    resolution: {integrity: sha512-B6Nz/GbH7Vkpb2TkQHsGcczWM5t+70VWopWF1x5V5yxLpA8ZzVQ7NTKKi+jDoVY2Efu6ZyzgT9n5KgG2kWliXA==}
+  sass-embedded-win32-x64@1.93.0:
+    resolution: {integrity: sha512-6/RJGOdm3bwe71YJaYanQ81I6KA//T/a+MnKlRpP5zk5fy2ygAIGNeNr2ENEBu/KZCuFg7KY49g46v+hPKT6Ow==}
     engines: {node: '>=14.0.0'}
     cpu: [x64]
     os: [win32]
 
-  sass-embedded@1.92.1:
-    resolution: {integrity: sha512-28YwLnF5atAhogt3E4hXzz/NB9dwKffyw08a7DEasLh94P7+aELkG3ENSHYCWB9QFN14hYNLfwr9ozUsPDhcDQ==}
+  sass-embedded@1.93.0:
+    resolution: {integrity: sha512-dQACVfrbwKtvnrA0xH67YAdUYi6k7XcPg8uNF3DPf/VaJMQzduE1z5w3NFa9oVjtqXM4+FA9P7Qdv06Bzf614g==}
     engines: {node: '>=16.0.0'}
     hasBin: true
 
-  sass@1.92.1:
-    resolution: {integrity: sha512-ffmsdbwqb3XeyR8jJR6KelIXARM9bFQe8A6Q3W4Klmwy5Ckd5gz7jgUNHo4UOqutU5Sk1DtKLbpDP0nLCg1xqQ==}
+  sass@1.93.0:
+    resolution: {integrity: sha512-CQi5/AzCwiubU3dSqRDJ93RfOfg/hhpW1l6wCIvolmehfwgCI35R/0QDs1+R+Ygrl8jFawwwIojE2w47/mf94A==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -7858,7 +7858,7 @@ snapshots:
     dependencies:
       '@arcjet/sprintf': 1.0.0-beta.11
 
-  '@arcjet/next@1.0.0-beta.11(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))':
+  '@arcjet/next@1.0.0-beta.11(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))':
     dependencies:
       '@arcjet/env': 1.0.0-beta.11
       '@arcjet/headers': 1.0.0-beta.11
@@ -7867,7 +7867,7 @@ snapshots:
       '@arcjet/protocol': 1.0.0-beta.11
       '@arcjet/transport': 1.0.0-beta.11
       arcjet: 1.0.0-beta.11
-      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1)
+      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0)
 
   '@arcjet/protocol@1.0.0-beta.11':
     dependencies:
@@ -8128,7 +8128,7 @@ snapshots:
 
   '@bufbuild/protobuf@1.10.1': {}
 
-  '@bufbuild/protobuf@2.7.0': {}
+  '@bufbuild/protobuf@2.9.0': {}
 
   '@chromatic-com/storybook@3.2.7(react@19.0.0)(storybook@8.6.14(prettier@3.6.2))':
     dependencies:
@@ -8616,12 +8616,12 @@ snapshots:
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
-  '@joshwooding/vite-plugin-react-docgen-typescript@0.5.0(typescript@5.9.2)(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))':
+  '@joshwooding/vite-plugin-react-docgen-typescript@0.5.0(typescript@5.9.2)(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))':
     dependencies:
       glob: 10.4.5
       magic-string: 0.27.0
       react-docgen-typescript: 2.2.2(typescript@5.9.2)
-      vite: 6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
+      vite: 6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
     optionalDependencies:
       typescript: 5.9.2
 
@@ -8644,9 +8644,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@logtail/next@0.2.1(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)':
+  '@logtail/next@0.2.1(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0)':
     dependencies:
-      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1)
+      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0)
       react: 19.0.0
       use-deep-compare: 1.3.0(react@19.0.0)
       whatwg-fetch: 3.6.20
@@ -8768,9 +8768,9 @@ snapshots:
   '@next/swc-win32-x64-msvc@15.1.2':
     optional: true
 
-  '@next/third-parties@15.5.3(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)':
+  '@next/third-parties@15.5.3(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0)':
     dependencies:
-      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1)
+      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0)
       react: 19.0.0
       third-party-capital: 1.0.20
 
@@ -8792,9 +8792,9 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
-  '@nosecone/next@1.0.0-beta.11(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))':
+  '@nosecone/next@1.0.0-beta.11(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))':
     dependencies:
-      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1)
+      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0)
       nosecone: 1.0.0-beta.11
 
   '@opentelemetry/api-logs@0.53.0':
@@ -9622,7 +9622,7 @@ snapshots:
 
   '@sentry/core@8.55.0': {}
 
-  '@sentry/nextjs@8.55.0(@opentelemetry/context-async-hooks@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/core@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.57.1(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)(webpack@5.97.1)':
+  '@sentry/nextjs@8.55.0(@opentelemetry/context-async-hooks@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/core@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.57.1(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0)(webpack@5.97.1)':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/semantic-conventions': 1.30.0
@@ -9635,7 +9635,7 @@ snapshots:
       '@sentry/vercel-edge': 8.55.0
       '@sentry/webpack-plugin': 2.22.7(webpack@5.97.1)
       chalk: 3.0.0
-      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1)
+      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0)
       resolve: 1.22.8
       rollup: 3.29.5
       stacktrace-parser: 0.1.10
@@ -9841,13 +9841,13 @@ snapshots:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
-  '@storybook/builder-vite@8.6.14(storybook@8.6.14(prettier@3.6.2))(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))':
+  '@storybook/builder-vite@8.6.14(storybook@8.6.14(prettier@3.6.2))(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))':
     dependencies:
       '@storybook/csf-plugin': 8.6.14(storybook@8.6.14(prettier@3.6.2))
       browser-assert: 1.2.1
       storybook: 8.6.14(prettier@3.6.2)
       ts-dedent: 2.2.0
-      vite: 6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
+      vite: 6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
 
   '@storybook/components@8.6.14(storybook@8.6.14(prettier@3.6.2))':
     dependencies:
@@ -9906,11 +9906,11 @@ snapshots:
       react-dom: 19.0.0(react@19.0.0)
       storybook: 8.6.14(prettier@3.6.2)
 
-  '@storybook/react-vite@8.6.14(@storybook/test@8.6.14(storybook@8.6.14(prettier@3.6.2)))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rollup@4.50.1)(storybook@8.6.14(prettier@3.6.2))(typescript@5.9.2)(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))':
+  '@storybook/react-vite@8.6.14(@storybook/test@8.6.14(storybook@8.6.14(prettier@3.6.2)))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rollup@4.50.1)(storybook@8.6.14(prettier@3.6.2))(typescript@5.9.2)(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))':
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.5.0(typescript@5.9.2)(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.5.0(typescript@5.9.2)(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
       '@rollup/pluginutils': 5.2.0(rollup@4.50.1)
-      '@storybook/builder-vite': 8.6.14(storybook@8.6.14(prettier@3.6.2))(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
+      '@storybook/builder-vite': 8.6.14(storybook@8.6.14(prettier@3.6.2))(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
       '@storybook/react': 8.6.14(@storybook/test@8.6.14(storybook@8.6.14(prettier@3.6.2)))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(storybook@8.6.14(prettier@3.6.2))(typescript@5.9.2)
       find-up: 5.0.0
       magic-string: 0.30.17
@@ -9920,7 +9920,7 @@ snapshots:
       resolve: 1.22.10
       storybook: 8.6.14(prettier@3.6.2)
       tsconfig-paths: 4.2.0
-      vite: 6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
+      vite: 6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
     optionalDependencies:
       '@storybook/test': 8.6.14(storybook@8.6.14(prettier@3.6.2))
     transitivePeerDependencies:
@@ -10525,12 +10525,12 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.9.2':
     optional: true
 
-  '@vercel/analytics@1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)':
+  '@vercel/analytics@1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0)':
     optionalDependencies:
-      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1)
+      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0)
       react: 19.0.0
 
-  '@vercel/microfrontends@1.3.0(@vercel/analytics@1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(vite@6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))':
+  '@vercel/microfrontends@1.3.0(@vercel/analytics@1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(vite@6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))':
     dependencies:
       '@next/env': 15.1.6
       ajv: 8.17.1
@@ -10542,11 +10542,11 @@ snapshots:
       nanoid: 3.3.11
       path-to-regexp: 6.2.1
     optionalDependencies:
-      '@vercel/analytics': 1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0)
-      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1)
+      '@vercel/analytics': 1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0)
+      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0)
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
-      vite: 6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
+      vite: 6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
     transitivePeerDependencies:
       - debug
 
@@ -10583,10 +10583,10 @@ snapshots:
       - supports-color
       - vitest
 
-  '@vercel/toolbar@0.1.41(@vercel/analytics@1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(vite@6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))':
+  '@vercel/toolbar@0.1.41(@vercel/analytics@1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(vite@6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))':
     dependencies:
       '@tinyhttp/app': 1.3.0
-      '@vercel/microfrontends': 1.3.0(@vercel/analytics@1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(vite@6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
+      '@vercel/microfrontends': 1.3.0(@vercel/analytics@1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0))(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(vite@6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))
       chokidar: 3.6.0
       execa: 5.1.1
       fast-glob: 3.3.3
@@ -10595,9 +10595,9 @@ snapshots:
       jsonc-parser: 3.3.1
       strip-ansi: 6.0.1
     optionalDependencies:
-      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1)
+      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0)
       react: 19.0.0
-      vite: 6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
+      vite: 6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
     transitivePeerDependencies:
       - '@sveltejs/kit'
       - '@vercel/analytics'
@@ -10605,7 +10605,7 @@ snapshots:
       - debug
       - react-dom
 
-  '@vitejs/plugin-react@4.7.0(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))':
+  '@vitejs/plugin-react@4.7.0(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1))':
     dependencies:
       '@babel/core': 7.28.0
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.0)
@@ -10613,7 +10613,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.27
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
+      vite: 6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -13796,13 +13796,13 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next-auth@5.0.0-beta.25(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1))(react@19.0.0):
+  next-auth@5.0.0-beta.25(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0))(react@19.0.0):
     dependencies:
       '@auth/core': 0.37.2
-      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1)
+      next: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0)
       react: 19.0.0
 
-  next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.92.1):
+  next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.0):
     dependencies:
       '@next/env': 15.1.2
       '@swc/counter': 0.1.3
@@ -13823,7 +13823,7 @@ snapshots:
       '@next/swc-win32-arm64-msvc': 15.1.2
       '@next/swc-win32-x64-msvc': 15.1.2
       '@opentelemetry/api': 1.9.0
-      sass: 1.92.1
+      sass: 1.93.0
       sharp: 0.33.5
     transitivePeerDependencies:
       - '@babel/core'
@@ -14648,67 +14648,67 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sass-embedded-all-unknown@1.92.1:
+  sass-embedded-all-unknown@1.93.0:
     dependencies:
-      sass: 1.92.1
+      sass: 1.93.0
     optional: true
 
-  sass-embedded-android-arm64@1.92.1:
+  sass-embedded-android-arm64@1.93.0:
     optional: true
 
-  sass-embedded-android-arm@1.92.1:
+  sass-embedded-android-arm@1.93.0:
     optional: true
 
-  sass-embedded-android-riscv64@1.92.1:
+  sass-embedded-android-riscv64@1.93.0:
     optional: true
 
-  sass-embedded-android-x64@1.92.1:
+  sass-embedded-android-x64@1.93.0:
     optional: true
 
-  sass-embedded-darwin-arm64@1.92.1:
+  sass-embedded-darwin-arm64@1.93.0:
     optional: true
 
-  sass-embedded-darwin-x64@1.92.1:
+  sass-embedded-darwin-x64@1.93.0:
     optional: true
 
-  sass-embedded-linux-arm64@1.92.1:
+  sass-embedded-linux-arm64@1.93.0:
     optional: true
 
-  sass-embedded-linux-arm@1.92.1:
+  sass-embedded-linux-arm@1.93.0:
     optional: true
 
-  sass-embedded-linux-musl-arm64@1.92.1:
+  sass-embedded-linux-musl-arm64@1.93.0:
     optional: true
 
-  sass-embedded-linux-musl-arm@1.92.1:
+  sass-embedded-linux-musl-arm@1.93.0:
     optional: true
 
-  sass-embedded-linux-musl-riscv64@1.92.1:
+  sass-embedded-linux-musl-riscv64@1.93.0:
     optional: true
 
-  sass-embedded-linux-musl-x64@1.92.1:
+  sass-embedded-linux-musl-x64@1.93.0:
     optional: true
 
-  sass-embedded-linux-riscv64@1.92.1:
+  sass-embedded-linux-riscv64@1.93.0:
     optional: true
 
-  sass-embedded-linux-x64@1.92.1:
+  sass-embedded-linux-x64@1.93.0:
     optional: true
 
-  sass-embedded-unknown-all@1.92.1:
+  sass-embedded-unknown-all@1.93.0:
     dependencies:
-      sass: 1.92.1
+      sass: 1.93.0
     optional: true
 
-  sass-embedded-win32-arm64@1.92.1:
+  sass-embedded-win32-arm64@1.93.0:
     optional: true
 
-  sass-embedded-win32-x64@1.92.1:
+  sass-embedded-win32-x64@1.93.0:
     optional: true
 
-  sass-embedded@1.92.1:
+  sass-embedded@1.93.0:
     dependencies:
-      '@bufbuild/protobuf': 2.7.0
+      '@bufbuild/protobuf': 2.9.0
       buffer-builder: 0.2.0
       colorjs.io: 0.5.2
       immutable: 5.1.3
@@ -14717,26 +14717,26 @@ snapshots:
       sync-child-process: 1.0.2
       varint: 6.0.0
     optionalDependencies:
-      sass-embedded-all-unknown: 1.92.1
-      sass-embedded-android-arm: 1.92.1
-      sass-embedded-android-arm64: 1.92.1
-      sass-embedded-android-riscv64: 1.92.1
-      sass-embedded-android-x64: 1.92.1
-      sass-embedded-darwin-arm64: 1.92.1
-      sass-embedded-darwin-x64: 1.92.1
-      sass-embedded-linux-arm: 1.92.1
-      sass-embedded-linux-arm64: 1.92.1
-      sass-embedded-linux-musl-arm: 1.92.1
-      sass-embedded-linux-musl-arm64: 1.92.1
-      sass-embedded-linux-musl-riscv64: 1.92.1
-      sass-embedded-linux-musl-x64: 1.92.1
-      sass-embedded-linux-riscv64: 1.92.1
-      sass-embedded-linux-x64: 1.92.1
-      sass-embedded-unknown-all: 1.92.1
-      sass-embedded-win32-arm64: 1.92.1
-      sass-embedded-win32-x64: 1.92.1
+      sass-embedded-all-unknown: 1.93.0
+      sass-embedded-android-arm: 1.93.0
+      sass-embedded-android-arm64: 1.93.0
+      sass-embedded-android-riscv64: 1.93.0
+      sass-embedded-android-x64: 1.93.0
+      sass-embedded-darwin-arm64: 1.93.0
+      sass-embedded-darwin-x64: 1.93.0
+      sass-embedded-linux-arm: 1.93.0
+      sass-embedded-linux-arm64: 1.93.0
+      sass-embedded-linux-musl-arm: 1.93.0
+      sass-embedded-linux-musl-arm64: 1.93.0
+      sass-embedded-linux-musl-riscv64: 1.93.0
+      sass-embedded-linux-musl-x64: 1.93.0
+      sass-embedded-linux-riscv64: 1.93.0
+      sass-embedded-linux-x64: 1.93.0
+      sass-embedded-unknown-all: 1.93.0
+      sass-embedded-win32-arm64: 1.93.0
+      sass-embedded-win32-x64: 1.93.0
 
-  sass@1.92.1:
+  sass@1.93.0:
     dependencies:
       chokidar: 4.0.3
       immutable: 5.1.3
@@ -15621,7 +15621,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite-plugin-dts@4.5.4(@types/node@22.18.6)(rollup@4.50.1)(typescript@5.9.2)(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)):
+  vite-plugin-dts@4.5.4(@types/node@22.18.6)(rollup@4.50.1)(typescript@5.9.2)(vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)):
     dependencies:
       '@microsoft/api-extractor': 7.52.8(@types/node@22.18.6)
       '@rollup/pluginutils': 5.2.0(rollup@4.50.1)
@@ -15634,13 +15634,13 @@ snapshots:
       magic-string: 0.30.17
       typescript: 5.9.2
     optionalDependencies:
-      vite: 6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
+      vite: 6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
 
-  vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1):
+  vite@6.3.6(@types/node@22.18.6)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1):
     dependencies:
       esbuild: 0.25.9
       fdir: 6.5.0(picomatch@4.0.3)
@@ -15652,14 +15652,14 @@ snapshots:
       '@types/node': 22.18.6
       fsevents: 2.3.3
       jiti: 2.5.1
-      sass: 1.92.1
-      sass-embedded: 1.92.1
+      sass: 1.93.0
+      sass-embedded: 1.93.0
       sugarss: 5.0.0(postcss@8.5.6)
       terser: 5.44.0
       tsx: 4.20.5
       yaml: 2.6.1
 
-  vite@6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.92.1)(sass@1.92.1)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1):
+  vite@6.3.6(@types/node@24.5.2)(jiti@2.5.1)(sass-embedded@1.93.0)(sass@1.93.0)(sugarss@5.0.0(postcss@8.5.6))(terser@5.44.0)(tsx@4.20.5)(yaml@2.6.1):
     dependencies:
       esbuild: 0.25.9
       fdir: 6.5.0(picomatch@4.0.3)
@@ -15671,8 +15671,8 @@ snapshots:
       '@types/node': 24.5.2
       fsevents: 2.3.3
       jiti: 2.5.1
-      sass: 1.92.1
-      sass-embedded: 1.92.1
+      sass: 1.93.0
+      sass-embedded: 1.93.0
       sugarss: 5.0.0(postcss@8.5.6)
       terser: 5.44.0
       tsx: 4.20.5
