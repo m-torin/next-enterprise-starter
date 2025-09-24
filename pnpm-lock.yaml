@@ -138,7 +138,7 @@ importers:
         version: 1.5.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.93.2))(react@19.0.0)
       posthog-js:
         specifier: ^1.203.1
-        version: 1.268.2(@rrweb/types@2.0.0-alpha.17)
+        version: 1.268.4(@rrweb/types@2.0.0-alpha.17)
       posthog-node:
         specifier: ^4.3.2
         version: 4.18.0
@@ -460,7 +460,7 @@ importers:
     dependencies:
       '@react-email/components':
         specifier: ^0.5.0
-        version: 0.5.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        version: 0.5.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@repo/env':
         specifier: workspace:*
         version: link:../env
@@ -734,7 +734,7 @@ importers:
     dependencies:
       '@tailwindcss/typography':
         specifier: ^0.5.15
-        version: 0.5.18(tailwindcss@3.4.17)
+        version: 0.5.19(tailwindcss@3.4.17)
       tailwind-merge:
         specifier: ^2.5.5
         version: 2.6.0
@@ -2120,8 +2120,8 @@ packages:
   '@polka/url@1.0.0-next.29':
     resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
 
-  '@posthog/core@1.2.0':
-    resolution: {integrity: sha512-JuVWgEiOeEfjNtxKg3Kxvt/YWbZCilZUnezUCSAUPQoKxM0VAzMYklh6u/+wxwWybSQ9NaStcNhkxnSU4OxqWA==}
+  '@posthog/core@1.2.1':
+    resolution: {integrity: sha512-zNw96BipqM5/Tf161Q8/K5zpwGY3ezfb2wz+Yc3fIT5OQHW8eEzkQldPgtFKMUkqImc73ukEa2IdUpS6vEGH7w==}
 
   '@prettier/plugin-php@0.24.0':
     resolution: {integrity: sha512-x9l65fCE/pgoET6RQowgdgG8Xmzs44z6j6Hhg3coINCyCw9JBGJ5ZzMR2XHAM2jmAdbJAIgqB6cUn4/3W3XLTA==}
@@ -2217,8 +2217,8 @@ packages:
     peerDependencies:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
 
-  '@react-email/components@0.5.4':
-    resolution: {integrity: sha512-y9aa/na9pEJ4uXVxX2E0QuiDLES8CIghkUOHJsRdKXbN9pGdgtPz5tjfMrNFe1x00S/kq2/VNaGidFYfZTnrTA==}
+  '@react-email/components@0.5.5':
+    resolution: {integrity: sha512-+utnip1DiXTq5TQKvL8qztWy0EC3L+qdRIeJkBZXJA4WGIukbaqimWCTBGIMW19Pj+1iKvDYk2JQHEQDLiq7uQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
@@ -2289,8 +2289,8 @@ packages:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
       react-dom: ^18.0 || ^19.0 || ^19.0.0-rc
 
-  '@react-email/render@1.3.0':
-    resolution: {integrity: sha512-AuKT93RJO+eBg9FIo5+QzVCUTB62sBcKewtDwoKS46KMTRSHeLH0oi3k8+B3ag51zgxAmk6Dda2630KVKNaggg==}
+  '@react-email/render@1.3.1':
+    resolution: {integrity: sha512-BOc/kanieEVyiuldFFvceriiBGBBVhe4JWWXCXE2ehLIqz+gSWD4rgCoXAGbJRnnVyyp4joPqK62bSfa88yonA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
@@ -2830,8 +2830,8 @@ packages:
   '@tabler/icons@3.35.0':
     resolution: {integrity: sha512-yYXe+gJ56xlZFiXwV9zVoe3FWCGuZ/D7/G4ZIlDtGxSx5CGQK110wrnT29gUj52kEZoxqF7oURTk97GQxELOFQ==}
 
-  '@tailwindcss/typography@0.5.18':
-    resolution: {integrity: sha512-dDIgwZOlf+tVkZ7A029VvQ1+ngKATENDjMEx2N35s2yPjfTS05RWSM8ilhEWSa5DMJ6ci2Ha9WNZEd2GQjrdQg==}
+  '@tailwindcss/typography@0.5.19':
+    resolution: {integrity: sha512-w31dd8HOx3k9vPtcQh5QHP9GwKcgbMp87j58qi6xgiBnFFtKEAgCWnDw4qUT8aHwkCp8bKvb/KGKWWHedP0AAg==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1'
 
@@ -6238,8 +6238,8 @@ packages:
     resolution: {integrity: sha512-9ZhXKM/rw350N1ovuWHbGxnGh/SNJ4cnxHiM0rxE4VN41wsg8P8zWn9hv/buK00RP4WvlOyr/RBDiptyxVbkZQ==}
     engines: {node: '>=0.10.0'}
 
-  posthog-js@1.268.2:
-    resolution: {integrity: sha512-MM/vFDHvw0j/Hwl/NWWJlBJYe5OIfJ6DL6JMnKRvQPj0ADPqF4alQuE19rYm5yC3YsrrcEVTBpH7wvZOjwe4dA==}
+  posthog-js@1.268.4:
+    resolution: {integrity: sha512-kbE8SeH4Hi6uETEzO4EVANULz1ncw+PXC/SMfDdByf4Qt0a/AKoxjlGCZwHuZuflQmBfTwwQcjHeQxnmIxti1A==}
     peerDependencies:
       '@rrweb/types': 2.0.0-alpha.17
       rrweb-snapshot: 2.0.0-alpha.17
@@ -9203,7 +9203,7 @@ snapshots:
 
   '@polka/url@1.0.0-next.29': {}
 
-  '@posthog/core@1.2.0': {}
+  '@posthog/core@1.2.1': {}
 
   '@prettier/plugin-php@0.24.0(prettier@3.6.2)':
     dependencies:
@@ -9296,7 +9296,7 @@ snapshots:
     dependencies:
       react: 19.0.0
 
-  '@react-email/components@0.5.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@react-email/components@0.5.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@react-email/body': 0.1.0(react@19.0.0)
       '@react-email/button': 0.2.0(react@19.0.0)
@@ -9313,7 +9313,7 @@ snapshots:
       '@react-email/link': 0.0.12(react@19.0.0)
       '@react-email/markdown': 0.0.15(react@19.0.0)
       '@react-email/preview': 0.0.13(react@19.0.0)
-      '@react-email/render': 1.3.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@react-email/render': 1.3.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@react-email/row': 0.0.12(react@19.0.0)
       '@react-email/section': 0.0.16(react@19.0.0)
       '@react-email/tailwind': 1.2.2(react@19.0.0)
@@ -9371,7 +9371,7 @@ snapshots:
       react-dom: 19.0.0(react@19.0.0)
       react-promise-suspense: 0.3.4
 
-  '@react-email/render@1.3.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@react-email/render@1.3.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       html-to-text: 9.0.5
       prettier: 3.6.2
@@ -9985,7 +9985,7 @@ snapshots:
 
   '@tabler/icons@3.35.0': {}
 
-  '@tailwindcss/typography@0.5.18(tailwindcss@3.4.17)':
+  '@tailwindcss/typography@0.5.19(tailwindcss@3.4.17)':
     dependencies:
       postcss-selector-parser: 6.0.10
       tailwindcss: 3.4.17
@@ -14195,9 +14195,9 @@ snapshots:
     dependencies:
       xtend: 4.0.2
 
-  posthog-js@1.268.2(@rrweb/types@2.0.0-alpha.17):
+  posthog-js@1.268.4(@rrweb/types@2.0.0-alpha.17):
     dependencies:
-      '@posthog/core': 1.2.0
+      '@posthog/core': 1.2.1
       core-js: 3.45.1
       fflate: 0.4.8
       preact: 10.27.2
